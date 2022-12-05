@@ -62,3 +62,5 @@ Now add the numbers together with one expression:
 ```
 int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
 ```
+
+## Decided to skip remaining lectures in First Steps Sections
