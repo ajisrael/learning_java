@@ -33,3 +33,32 @@ Change the value of the variable
 ```
 myFirstNumber = 10;
 ```
+
+## Starting out with Expressions
+Expressions are the code to the right side of a declaration.
+```
+int myFirstNumber = (10 + 5) + (2 * 10);
+```
+`(10 + 5) + (2 * 10)` is the expression in the previous statement.
+
+Create two new numbers for the rest of the lesson.
+```
+int mySecondNumber = 12;
+int myThirdNumber = 6;
+```
+
+Verify the variables have been created succesfully with the following command:
+```
+/var
+```
+You should see the following output:
+```
+|    int myFirstNumber = 35
+|    int mySecondNumber = 12
+|    int myThirdNumber = 6
+```
+
+Now add the numbers together with one expression:
+```
+int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+```
